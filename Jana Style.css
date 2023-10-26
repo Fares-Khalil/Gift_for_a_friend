@@ -1,0 +1,46 @@
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .paragraph{
+        border: 5px solid black;
+        width: 600px;
+        padding: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: chartreuse;
+        margin-top: 2px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    .video{
+        text-align: left;
+    }
+    img{
+        width: 640px;
+        height: 640px;
+    }
+    p{
+        font-size: large;
+    }
+    .Apple{
+        overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+    }
+    div{ 
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+        border: 10px;
+        width: 640px
+    }
+    .card{
+        border: 4px solid black ; 
+        padding: 5px;
+        width: fit-content;
+    }
+    body{
+        width: 660px;
+    }
